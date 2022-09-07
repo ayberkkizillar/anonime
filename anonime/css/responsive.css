@@ -1,0 +1,56 @@
+@media screen and (max-width: 1200px) {
+	header nav {
+		justify-content: center;
+		width: 1200px;
+		margin: 0 auto;
+	}
+	.section-list-anime {
+		flex-direction: column;
+		width: 900px;
+	}
+	.list-anime-info iframe {
+		width: 900px;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 992px) {
+	header nav {
+		width: auto;
+	}
+	.section-list-anime {
+		flex-direction: column;
+		width: 600px;
+		margin: 0 auto;
+	}
+	.section-list-anime {
+		flex-direction: column;
+		width: 600px;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 768px) {
+	header nav {
+		flex-direction: column;
+		height: auto;
+		margin: 0 auto;
+		width: auto;
+	}
+	.nav-menu {
+		justify-content: center;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+	.search {
+		margin: 0 auto;
+	}
+	.section-list-anime {
+		flex-direction: column;
+		width: 400px;
+		margin: 0 auto;
+	}
+	.section-list-anime {
+		flex-direction: column;
+		width: 400px;
+		margin: 0 auto;
+	}
+}
